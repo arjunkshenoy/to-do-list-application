@@ -1,0 +1,105 @@
+#container{
+	box-shadow: 0 0 10px 2px;
+	width: 250px;
+	margin : 100px auto;
+	background: #f7f7f7;
+}
+
+h1{
+	background:black ;
+	color: white;
+	font-size: 24px ;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-bottom: 0;
+
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+}
+
+body{
+	font-family: 'Ubuntu', sans-serif;
+}
+body{
+	background: #BBD2C5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+li{
+	background: #f7f7f7;
+	height: 40px;
+	line-height: 40px;
+	color:#666;
+	font-size: 15px;
+	
+
+}
+
+li:nth-child(2n){
+
+	background: #BBD2C5;
+}
+
+input{
+	font-size: 10px;
+	background-color: #f7f7f7;
+	width: 220px;
+	padding: 13px 13px 13px 13px;
+	height: 20px;
+	margin: 0;
+	line-height: 40px;
+	box-sizing: border-box;
+	border: 3px rgba(0,0,0,0);
+}
+
+input:focus{
+	background: white;
+	border: 0px solid black;
+	outline: none;
+}
+input:hover{
+	background: white;
+	border: 0px solid black;
+	outline: none;
+}
+.fa-ellipsis-h{
+	float:right;
+	font-size: 20px;
+}
+.fa-edit{
+	font-size: 15px;
+	padding: 5px;
+	float:right; 
+}
+.fa-trash{
+	font-size: 13px;
+}
+
+
+span{
+	margin-right: 10px;
+	background: #666666;
+	text-align: center;
+	color: white;
+	height: 40px;
+	width: 0;
+	display: inline-block;
+	transition: 0.4s linear;
+	opacity: 0;
+
+
+}
+
+li:hover span{
+	width: 40px;
+	opacity: 1.0;
+}
+
